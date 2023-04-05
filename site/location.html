@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Our Location</title>
+    </head>
+    <body>
+        <h1>Our Location</h1>
+        <p>Main Street, 5. Capital City</p>
+        <img src="house.jpg" width="200" height="150" alt="The House">
+        <style>
+            table, th, td {
+                border: 2px solid black;
+                border-collapse: collapse;
+            }
+        </style>
+        <table>
+            <tr>
+                <th>Car</th>
+                <th>Bus</th>
+                <th>Taxi</th>
+            </tr>
+            <tr>
+                <td>2 hours</td>
+                <td>4 hours</td>
+                <td>3 hours</td>
+            </tr>
+            <tr>
+                <td>10 $</td>
+                <td>8 $</td>
+                <td>15 $</td>
+            </tr>
+        </table>
+        <form action="/location" method="post">
+            <label for="username">Username:</label><br>
+            <input type="text" name="username"><br>
+            <label for="password">Password:</label><br>
+            <input type="password"><br>
+            <input type="submit">
+        </form>
+    </body>
+</html>
